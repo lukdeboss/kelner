@@ -1,6 +1,3 @@
-
-# to moj pierwszy jenkinsfile pipeline
-
 pipeline {
     agent any
 
