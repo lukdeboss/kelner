@@ -1,5 +1,5 @@
 
-pipeline {
+pipeline1 {
     agent any
 
     stages {
@@ -21,7 +21,7 @@ pipeline {
     }
 }
 
-pipeline {
+pipeline2 {
     agent any
 
     stages {
