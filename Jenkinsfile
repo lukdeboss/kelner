@@ -6,15 +6,15 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'startuje budowanie'
-                cp -r kolejny kolejny2
-                ls -al 
+                sh 'cp -r kolejny kolejny2'
+                sh 'ls -al '
             }
         }
         stage('Test') {
             steps {
                 echo 'Testing..'
                 echo "zakladam ze to jest tutaj"
-                ls -al 
+                sh 'ls -al '
             }
         }
         stage('Deploy') {
